@@ -71,7 +71,7 @@ This is a re-implementation under a constrained compute and data budget, so a ga
 
 ## Stack
 
-PyTorch · HuggingFace Transformers · FAISS · sentence-transformers
+PyTorch · HuggingFace Transformers · FAISS 
 
 ## Reference
 
