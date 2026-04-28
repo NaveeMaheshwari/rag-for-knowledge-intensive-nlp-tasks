@@ -65,9 +65,8 @@ python evaluate.py
 
 This is a re-implementation under a constrained compute and data budget, so a gap from the paper's numbers is expected. Specifically:
 
-- **Corpus**: paper uses the December 2018 Wikipedia dump (~21M passages); this work uses the TriviaQA training-split corpus only.
+- **Corpus**: paper uses the December 2018 Wikipedia dump (~21M passages); This work retrieves from the Wikipedia evidence documents bundled with TriviaQA's rc config .
 - **Datasets**: paper jointly trains/evaluates on NQ + TriviaQA + WebQuestions + CuratedTREC; this work uses TriviaQA alone.
-- **Scale**: ~138K training QA pairs and ~17K test pairs here, with mini-batch SGD instead of the paper's full-scale training setup.
 - **Variant**: only RAG-token is implemented (paper reports both RAG-sequence and RAG-token).
 
 ## Stack
