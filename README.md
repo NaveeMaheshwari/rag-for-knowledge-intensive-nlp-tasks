@@ -2,7 +2,7 @@
 
 End-to-end re-implementation of Lewis et al. (2020), Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (NeurIPS), for open-domain question answering. Built as a personal learning project to develop hands-on understanding of each RAG component — retrieval, indexing, marginalized generation, and joint fine-tuning.
 
-## What's implemented
+##  implementation
 
 - **Retrieval**: DPR question and context encoders (`facebook/dpr`)
 - **Indexing**: HNSW FAISS index over chunked TriviaQA passages (100-word chunks, inner-product similarity on L2-normalized embeddings)
